@@ -7,3 +7,8 @@
 [grsecurity.net/~spender/](http://grsecurity.net/~spender/)目录下包含了丰富的linux系统提权资料
 
 >* https://soroush.secproject.com/blog/
+
+
+## 待研究
+>* [Automating Man-in-the-Middle SSHv2 attacks](http://milo2012.wordpress.com/2014/11/12/automating-man-in-the-middle-sshv2-attacks/)
+>* [ANALYSIS OF CVE-2014-8476: A FREEBSD KERNEL MEMORY DISCLOSURE VULNERABILITY](http://sysexit.wordpress.com/2014/11/12/analysis-of-cve-2014-8476-a-freebsd-kernel-memory-disclosure-vulnerability/)
