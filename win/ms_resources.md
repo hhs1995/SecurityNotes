@@ -1,4 +1,4 @@
-# Microsoft Resources Collection for Security Research
+# Resources Collection for the Microsoft Research
 ------------------------------------------------------------------------
 
 
