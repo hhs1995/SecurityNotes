@@ -20,7 +20,7 @@ for i in range(0,end):
 		pwd = chars[n%base]+pwd
 		n=n/base
 	print i,pwd
-	f.write(ch3+ch2+ch1+ch0+'\n')
+	f.write(pwd+'\n')
 
 f.close()
 ```
