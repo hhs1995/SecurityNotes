@@ -9,23 +9,17 @@ chars=[
  'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
 ]
 
+pwdlen = 6
 base=len(chars) #62
-end=len(chars)**6
+end=len(chars)**pwdlen
 
 for i in range(0,end):
 	n=i
-	ch0=chars[n%base]
-	n=n/base
-	ch1=chars[n%base]
-	n=n/base
-	ch2=chars[n%base]
-	n=n/base
-	ch3=chars[n%base]
-	n=n/base
-	ch4=chars[n%base]
-	n=n/base
-	ch5=chars[n%base]
-	print i,ch5,ch4,ch3,ch2,ch1,ch0
+	pwd = ""
+	for c in range(0, pwdlen):
+		pwd = chars[n%base]+pwd
+		n=n/base
+	print i,pwd
 	f.write(ch3+ch2+ch1+ch0+'\n')
 
 f.close()
