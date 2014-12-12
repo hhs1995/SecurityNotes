@@ -10,7 +10,7 @@ chars=[
 ]
 
 base=len(chars) #62
-end=len(chars)**4
+end=len(chars)**6
 
 for i in range(0,end):
 	n=i
