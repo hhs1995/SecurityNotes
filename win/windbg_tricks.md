@@ -9,7 +9,7 @@
 ```
 /*
 假设: 目标指令地址为TADDR;
-用法：当前WINDBG输入是因为触发断点(bp/ba/bm等命令)，从此断点位置可以执行到TADDR位置，该过程中当前线程不会终止。
+条件：当前WINDBG的命令输入状态是因为触发断点(bp/ba/bm等命令)，从此（断点）位置执行到目标地址TADDR的过程中当前线程不会终止。
 */
 .logappend /u d:\logs.txt
 .for(;@$ip-TADDR;){u @$ip l1;t} 
