@@ -1,7 +1,7 @@
 #WinDbg Tricks
 --------------------------------
 ## 1.符号问题
-解决Winfbg符号问题请参考微软知识库文章：
+解决WinDbg符号问题请参考微软知识库文章：
 [《使用 Microsoft Symbol Server 获取调试符号文件》](http://support.microsoft.com/kb/311503)
 
 ## 2.跟踪指令流
