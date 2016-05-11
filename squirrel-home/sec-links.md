@@ -1,5 +1,5 @@
 # Links
 -------------
 
-[https://cxsecurity.com/](CXSECURITY)
+[CXSECURITY](https://cxsecurity.com/)
 Free Vulnerabilities Database
